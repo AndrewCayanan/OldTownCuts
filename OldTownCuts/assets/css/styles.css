@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1e1e1e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* Fix for Cut-off Logout Button */
+nav a:last-child {
+    margin-right: 30px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/barbershop-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #d4af37;
+}
+
+.hero button {
+    background-color: #d4af37;
+    color: #121212;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #b8962e;
+}
+
+/* Featured Services */
+.featured-services {
+    text-align: center;
+    padding: 50px 20px;
+    background: #1e1e1e;
+}
+
+.service-item {
+    background: #282828;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.service-item h3 {
+    color: #d4af37;
+}
+
+/* Forms */
+form {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #333;
+    color: #f5f5f5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+    color: #f5f5f5;
+    margin-top: 40px;
+}
